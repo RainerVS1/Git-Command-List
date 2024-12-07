@@ -1,0 +1,59 @@
+Configuração
+git config --global user.name "Seu Nome": Define o nome do usuário que será registrado nos commits.
+git config --global user.email "seuemail@exemplo.com": Define o e-mail do usuário para os commits.
+git config --list: Mostra todas as configurações atuais do Git.
+
+Criação de Repositórios
+git init: Cria um novo repositório Git no diretório atual.
+git clone <url>: Faz uma cópia de um repositório remoto para o seu computador.
+
+Estado do Repositório
+git status: Exibe o estado dos arquivos no repositório (modificados, prontos para commit, etc.).
+git diff: Mostra as diferenças entre o estado atual e o último commit.
+
+Gerenciamento de Arquivos
+git add <arquivo>: Adiciona um arquivo específico para a área de preparação (staging area).
+git add .: Adiciona todos os arquivos modificados ou novos ao staging.
+git rm <arquivo>: Remove um arquivo do repositório e do sistema de arquivos.
+
+Commits
+git commit -m "mensagem": Cria um commit com a mensagem especificada.
+git commit -am "mensagem": Adiciona todos os arquivos modificados ao staging e faz o commit em um único comando.
+
+Histórico
+git log: Exibe o histórico completo dos commits no repositório.
+git log --oneline: Mostra o histórico de commits em formato resumido.
+
+Branches (Ramificações)
+git branch: Lista todas as branches no repositório.
+git branch <nome>: Cria uma nova branch com o nome especificado.
+git checkout <branch>: Alterna para uma branch existente.
+git checkout -b <nome>: Cria e alterna para uma nova branch.
+git merge <branch>: Mescla a branch especificada na branch atual.
+git branch -d <branch>: Deleta uma branch local.
+
+Sincronização com Repositórios Remotos
+git pull: Atualiza o repositório local com as alterações do repositório remoto.
+git fetch: Baixa atualizações do repositório remoto sem aplicá-las.
+git push: Envia commits locais para o repositório remoto.
+
+Reverter Alterações
+git reset <arquivo>: Remove um arquivo do staging, mas mantém as alterações no sistema de arquivos.
+git reset --hard: Desfaz todas as alterações e redefine o repositório para o último commit.
+git revert <commit>: Cria um novo commit que reverte as mudanças de um commit específico.
+
+Tags
+git tag: Lista todas as tags do repositório.
+git tag -a <nome> -m "mensagem": Cria uma tag anotada com uma mensagem.
+git show <tag>: Exibe informações sobre a tag especificada.
+
+Ajuda
+git help: Exibe a ajuda geral do Git.
+git <comando> --help: Mostra detalhes sobre o comando especificado.
+
+
+
+
+
+
+
